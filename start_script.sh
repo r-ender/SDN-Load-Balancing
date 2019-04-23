@@ -13,11 +13,11 @@ sudo gnome-terminal -e 'bash start_script4.sh'
 #while-loop for updating the packet-counter of the GUI (updating packetcounters at runtime is not possible)
 COUNTER=0
 while [  $COUNTER -lt 3 ]; do
-    timeout -k 0m 25s python testgui_v3.py 
+    timeout -k 0m 25s python SDN_gui.py 
     let COUNTER=COUNTER+1 
 done
 
 #don't update packet-counters any more, just leave the topology for updating the roles (with function "paintEvent" of GUI-code)
-python testgui_v3.py
+python SDN_gui.py
 
 
