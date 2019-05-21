@@ -1,4 +1,4 @@
-# university-group-project-02
+# university-group-project (SDN)
 Load balancing of a software-defined network with Ryu
 
 A Software defined network based on mininet with two controllers that communicate over IP/TCP to exchange information of the network.
